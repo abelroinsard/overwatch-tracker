@@ -6,4 +6,12 @@
     box-sizing: border-box;
     height: calc(100% - var(--header-height));
     width: 100%;
+    gap: 1em
+}
+
+.bottomInfo {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    box-sizing: border-box;
 }

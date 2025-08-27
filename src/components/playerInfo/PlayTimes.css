@@ -1,0 +1,28 @@
+.PlayTimes {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 33%;
+    box-sizing: border-box;
+}
+
+h3 {
+    font-family: 'BigNoodleToo';
+    font-style: oblique;
+    font-size: 50px;
+    font-weight: lighter;
+    margin: 0;
+    flex-shrink: 0;
+}
+
+h4 {
+    font-family: 'Futura';
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+
+.chart {
+    height: 400px;
+    box-sizing: border-box;
+    overflow: hidden;
+}

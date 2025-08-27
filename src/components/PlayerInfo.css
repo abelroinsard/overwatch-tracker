@@ -1,0 +1,9 @@
+.PlayerInfo {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2em;
+    padding-right: 2em;
+    box-sizing: border-box;
+    height: calc(100% - var(--header-height));
+    width: 100%;
+}

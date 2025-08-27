@@ -1,0 +1,47 @@
+.CompRank {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5em;
+    align-items: center;
+    justify-content: center;
+}
+
+.empty {
+    height: 1em;
+    width: 1em;
+    background-color: #ffffff40;
+    border-radius: .5em;
+}
+
+.role {
+    display: flex;
+    flex-direction: row;
+    gap: .5em;
+    background-color: #ffffff40;
+    padding: .5em;
+    border-radius: .5em;
+    justify-content: center;
+    align-items: center;
+}
+
+.role_icon {
+    height: 2em;
+    width: 2em;
+}
+
+.role_icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.role_rank {
+    height: 2em;
+    width: auto;
+}
+
+.role_tier {
+    width: 2em;
+    height: auto;
+}

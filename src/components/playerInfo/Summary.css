@@ -1,0 +1,58 @@
+.Summary {
+    display: flex;
+    flex-direction: row;
+    height: 128px;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    gap: 1em;
+}
+
+.Summary img {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.Info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #1C253B;
+    flex: 1;
+    margin: 0;
+    padding: 2em;
+    height: calc(128px - 4em);
+    gap: 1em;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #FFFFFF;
+    font-family: 'BigNoodleToo';
+    font-style: oblique;
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+img {
+    height: 128px;
+    width: 128px;
+    border-radius: 8px;
+}
+
+.endorsement {
+    height: 48px;
+    width: 48px;
+}
+
+.separator {
+    height: 86px;
+    width: 2px;
+    margin-left: 16px;
+    margin-right: 16px;
+    background-color: #3F455D;
+    border-radius: 1px;
+}

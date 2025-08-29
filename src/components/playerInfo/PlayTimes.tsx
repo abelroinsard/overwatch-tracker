@@ -12,7 +12,6 @@ export default function PlayTimes({ QPTime, CompTime }: PlayTimesProps) {
   const CompPercentage = CompTime > QPTime ? 100 : (CompTime / QPTime) * 100;
   const QPHours = (QPTime / 3600).toString().split(".")[0] + "h";
   const CompHours = (CompTime / 3600).toString().split(".")[0] + "h";
-  console.log(QPTime);
 
   return (
     <div className="PlayTimes">

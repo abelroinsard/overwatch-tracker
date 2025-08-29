@@ -19,7 +19,12 @@ function App() {
   const [playerInfo, setPlayerInfo] = useState<Object | null>(null);
 
   useEffect(() => {
-    if (playerName == null || playerNumbers == null || playerName === "" || playerNumbers === "") {
+    if (
+      playerName == null ||
+      playerNumbers == null ||
+      playerName === "" ||
+      playerNumbers === ""
+    ) {
       return;
     }
     const fetchInfo = async () => {

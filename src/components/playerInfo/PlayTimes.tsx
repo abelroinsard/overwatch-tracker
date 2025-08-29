@@ -14,7 +14,7 @@ export default function PlayTimes({ QPTime, CompTime }: PlayTimesProps) {
   const CompHours = (CompTime / 3600).toString().split(".")[0] + "h";
 
   return (
-    <div className="PlayTimes">
+    <div className="PlayTimes StatsBox">
       <h3>Play Times:</h3>
       <div className="playtimecontainers">
         <div className="labels">

@@ -1,9 +1,8 @@
 .PlayTimes {
     display: flex;
     flex-direction: column;
-    height: 100%;
-    width: 33%;
-    box-sizing: border-box;
+    width: 50%;
+    height: fit-content;
     gap: 1em;
 }
 
@@ -23,7 +22,6 @@ h4 {
 }
 
 .charts {
-    height: 400px;
     width: 100%;
     box-sizing: border-box;
     overflow: hidden;

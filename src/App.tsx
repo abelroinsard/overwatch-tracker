@@ -3,7 +3,7 @@ import "./App.css";
 import Header from "./components/Header";
 import NoPlayerFound from "./components/NoPlayerFound";
 import PlayerInfo from "./components/PlayerInfo";
-import { fetchPlayerInfo } from "./utils";
+import { fetchHeroes, fetchPlayerInfo, Hero } from "./utils";
 
 function App() {
   const [playerName, setPlayerName] = useState(
@@ -17,6 +17,7 @@ function App() {
       : ""
   );
   const [playerInfo, setPlayerInfo] = useState<Object | null>(null);
+  const [heroes, setHeroes] = useState<Hero[] | null>(null)
 
   useEffect(() => {
     if (
@@ -28,6 +29,8 @@ function App() {
       return;
     }
     const fetchInfo = async () => {
+      const heroesRes = await fetchHeroes();
+      setHeroes(heroesRes);
       const playerInfo = await fetchPlayerInfo(playerName, playerNumbers);
       setPlayerInfo(playerInfo);
       if (playerInfo != null) {

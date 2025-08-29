@@ -33,10 +33,20 @@ body {
   font-family: var(--font-primary);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #798db5;
+  background: linear-gradient(rgba(121, 141, 181, 1) 0%, rgba(173, 227, 240, 1) 67%, rgba(201, 212, 245, 1) 100%);
 }
 
 h1 {
   font-family: var(--font-title);
   font-style: oblique;
   margin: 10px;
+}
+
+.StatsBox {
+  background-color: #ffffff55;
+  border: 2px solid #ffffee;
+  border-radius: 1em;
+  padding: 1em;
+  box-sizing: border-box;
 }
